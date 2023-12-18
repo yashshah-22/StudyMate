@@ -1,5 +1,6 @@
 
 import "../../../node_modules/react-vis/dist/style.css";
+import "../Dashboard"
 import {
   XYPlot,
   LineSeries,
@@ -8,6 +9,7 @@ import {
   VerticalGridLines,
   HorizontalGridLines,
 } from "react-vis";
+import Dashboard from "../Dashboard";
 
 const Chart = () => {
   const data = [
@@ -24,7 +26,7 @@ const Chart = () => {
   ];
   return (
     <div style={{ marginTop: "15px" }}>
-      <XYPlot height={300} width={300}>
+      {/* <XYPlot height={300} width={300}>
         <VerticalGridLines />
         <HorizontalGridLines />
         <XAxis />
@@ -32,7 +34,8 @@ const Chart = () => {
         <LineSeries data={data} color="red" />
         <LineSeries data={data} color="purple" />
         <LineSeries data={data} color="yellow" />
-      </XYPlot>
+      </XYPlot> */}
+      <Dashboard/>
     </div>
   );
 };

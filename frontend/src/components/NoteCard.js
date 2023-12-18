@@ -8,17 +8,18 @@ const NoteCard = ({ note, isDisabled }) => {
   const {userEmail}=useUser();
   const [showNotes, setShowNotes] = useState(true);
   const navigate = useNavigate();
-  const [unsCategory, setUnsCategory] = useState(null);
+  const [unsCategory, setUnsCategory] = useState('');
   const navigateToNotes = () => {
     navigate(`/notes/${getDifficulty(note.title)}/${getSubject(note.title)}`);
   };
   const getUnsCategory = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/getUnsCategory', {
+      let response = await axios.post('http://localhost:8000/getUnsCategory', {
         userEmail: userEmail,  
         subject: getSubject(note.title)
-      });
-      setUnsCategory(response.data.uns_category);
+      })
+        let r=response.data.uns_category;
+        alert(r);
     
     } catch (error) {
       console.error("Error fetching uns category:", error.message);
@@ -26,9 +27,9 @@ const NoteCard = ({ note, isDisabled }) => {
       console.error(error);
     }
   };
-  useEffect(() => {
-    getUnsCategory();
-  }, []);
+    // useEffect(() => {
+    //   console.log(unsCategory);
+    // }, [unsCategory]);
   
    
   const getSubject = (title) => {
@@ -65,13 +66,15 @@ const NoteCard = ({ note, isDisabled }) => {
 
   return (
     <div className={`note-card ${isDisabled ? 'disabled' : ''}`}>
+    
       <div className="note-image-container">
         <img src={note.image} alt={note.title} className="note-image" />
       </div>
       <h3>{note.title}</h3> 
       <p>{note.content}</p>
+      
       <div className='d-flex'>
-        <button className="read-notes-button" onClick={showNotes ? navigateToNotes : loadNotes}>
+        <button className="read-notes-button"  onClick={getUnsCategory}>
           {showNotes ? 'Notes' : 'Hide Notes'}
         </button>
       
@@ -80,7 +83,10 @@ const NoteCard = ({ note, isDisabled }) => {
             Take Test
           </button>
 
+          
+
         </Link>
+        
       </div>
     </div>
   );

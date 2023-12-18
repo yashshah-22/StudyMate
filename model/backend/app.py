@@ -36,8 +36,9 @@ class UserSubject(BaseModel):
 @app.post("/getUnsCategory")
 async def get_uns_category(user_subject: UserSubject):
     try:
+        print(user_subject)
         collection = db.get_collection("StudyInfo")
-        result = collection.find_one({"userEmail": user_subject.userEmail, "subject": user_subject.subject})
+        result = collection.find_one({"userEmail": user_subject.userEmail, "subject": user_subject.subject.upper()})
         if result:
             return {"uns_category": result["UNSCategory"]}
         else:
