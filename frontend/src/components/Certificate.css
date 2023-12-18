@@ -1,0 +1,44 @@
+.certificate-container {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid #3498db; /* Border color */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  }
+  
+  .certificate-header {
+    text-align: center;
+  }
+  
+  .certificate-content {
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  p {
+    margin: 10px 0;
+    color: #555; /* Paragraph text color */
+  }
+  .newbtn{
+    background-color:  #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: -30px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Add more styles as needed */
+  

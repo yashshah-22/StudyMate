@@ -1,0 +1,100 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #3498db;
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #2c3e50;
+}
+
+select {
+  font-size: 18px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chart-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 80%;
+}
+
+.student-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.info-card {
+  flex: 1;
+  text-align: center;
+  background-color: #ecf0f1;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-title {
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.info-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.animated {
+  animation-duration: 0.8s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
