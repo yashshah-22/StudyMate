@@ -74,7 +74,7 @@ const NoteCard = ({ note, isDisabled }) => {
       <p>{note.content}</p>
       
       <div className='d-flex'>
-        <button className="read-notes-button"  onClick={getUnsCategory}>
+        <button className="read-notes-button" onClick={navigateToNotes}>
           {showNotes ? 'Notes' : 'Hide Notes'}
         </button>
       

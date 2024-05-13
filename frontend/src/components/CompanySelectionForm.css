@@ -1,0 +1,49 @@
+/* CompanySelectionForm.css */
+.company-selection-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  .company-selection-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .company-selection-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company-selection-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .company-selection-form input,
+  .company-selection-form select,
+  .company-selection-form textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .company-selection-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .company-selection-form button:hover {
+    background-color: #0056b3;
+  }
+  

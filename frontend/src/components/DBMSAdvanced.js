@@ -4,14 +4,14 @@ import './DBMSBeginnerNotes.css';
 const DBMSAdvanced = () => {
   return (
     <div className="dbms-beginner-notes">
-      <div className="section section-1">
+      <div className="s s-1">
         <h4>Functional Dependency:</h4>
         <p>
           In any relation, a functional dependency α → β holds if- Two tuples having the same value of attribute α also have the same value for attribute β.
         </p>
       </div>
 
-      <div className="section section-2">
+      <div className="s s-2">
         <h4>Types of Functional Dependency:</h4>
         <ul>
           <li>Trivial Functional Dependencies –</li>
@@ -19,14 +19,14 @@ const DBMSAdvanced = () => {
         </ul>
       </div>
 
-      <div className="section section-3">
+      <div className="s s-3">
         <h4>Decomposition of a Relation:</h4>
         <p>
           The process of breaking up or dividing a single relation into two or more sub-relations is called the decomposition of a relation.
         </p>
       </div>
 
-      <div className="section section-4">
+      <div className="s s-4">
         <h4>Properties of Decomposition:</h4>
         <ul>
           <li>Lossless Decomposition -</li>
@@ -34,7 +34,7 @@ const DBMSAdvanced = () => {
         </ul>
       </div>
 
-      <div className="section section-5">
+      <div className="s s-5">
         <h4>Types of Decomposition:</h4>
         <ul>
           <li>Lossless Join Decomposition:</li>
@@ -42,14 +42,14 @@ const DBMSAdvanced = () => {
         </ul>
       </div>
 
-      <div className="section section-6">
+      <div className="s s-6">
         <h4>Normalization:</h4>
         <p>
           In DBMS, database normalization is a process of making the database consistent by reducing redundancies and ensuring the integrity of data through lossless decomposition.
         </p>
       </div>
 
-      <div className="section section-7">
+      <div className="s s-7">
         <h4>Normal Forms:</h4>
         <ul>
           <li>First Normal Form (1NF) -</li>
@@ -59,14 +59,14 @@ const DBMSAdvanced = () => {
         </ul>
       </div>
 
-      <div className="section section-8">
+      <div className="s s-8">
         <h4>Transaction:</h4>
         <p>
           Transaction is a single logical unit of work formed by a set of operations.
         </p>
       </div>
 
-      <div className="section section-9">
+      <div className="s s-9">
         <h4>Operations in Transaction:</h4>
         <ul>
           <li>Read Operation -</li>
@@ -74,7 +74,7 @@ const DBMSAdvanced = () => {
         </ul>
       </div>
 
-      <div className="section section-10">
+      <div className="s s-10">
         <h4>Transaction States:</h4>
         <ul>
           <li>Active State –</li>
@@ -86,7 +86,7 @@ const DBMSAdvanced = () => {
         </ul>
       </div>
 
-      <div className="section section-11">
+      <div className="s s-11">
         <h4>ACID Properties:</h4>
         <p>
           To ensure the consistency of the database, certain properties are followed by all the transactions

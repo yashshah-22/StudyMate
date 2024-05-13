@@ -1,0 +1,19 @@
+.styles{
+    display:flex;
+    flex-direction: row;
+}
+.styles .button1{
+    width:50%;
+    height:40px;
+}
+.styles .button2{
+    width:50%;
+    height:40px;
+}
+.button3{
+    width:50%;
+    height:40px;
+    margin-right: 40px;
+    margin-top:-10px;
+
+}

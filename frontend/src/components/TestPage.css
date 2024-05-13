@@ -68,7 +68,12 @@
     margin: 10px;
     transition: background-color 0.3s;
   }
-  
+  .kkkkkk{
+    display:flex;
+    flex-direction: horizontal;
+    width:50%;
+    margin-left: 300px;
+  }
   .submit-button:hover {
     background-color: #1EB2A6;
   }

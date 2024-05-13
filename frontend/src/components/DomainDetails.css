@@ -1,0 +1,73 @@
+/* DomainDetails.css */
+.domain-details {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .domain-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .domain-details h2,
+  .domain-details h3 {
+    color: #333;
+  }
+  
+  .domain-details p {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .domain-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .domain-details ul li {
+    margin-bottom: 10px;
+  }
+  
+  .domain-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .domain-details a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional styling for sections and images */
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    height:425px;
+    
+  }
+  
+  .content {
+    flex: 1;
+    margin-right: 20px;
+    padding-left: 15px;
+  }
+  .section h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .section-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .section-image-small {
+    width: 400px;
+    height: 450px;
+    border-radius: 8px;
+  }
+  .section p{
+    margin-top: 10px;
+  }

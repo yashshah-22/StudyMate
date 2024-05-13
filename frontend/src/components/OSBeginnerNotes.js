@@ -34,7 +34,7 @@ const OSBeginnerNotes = () => {
   };
   return (
     <div className="dbms-beginner-notes">
-      <div className="section section-1">
+      <div className="s s-1">
         <h4>Operating Systems</h4>
         <p>
           An Operating System can be defined as an interface between the user and
@@ -45,7 +45,7 @@ const OSBeginnerNotes = () => {
         </p>
       </div>
 
-      <div className="section section-2">
+      <div className="s s-2">
         <h4>Types of Operating Systems</h4>
         <p>
           1. Batch OS – A set of similar jobs are stored in the main memory for
@@ -62,7 +62,7 @@ const OSBeginnerNotes = () => {
         </p>
       </div>
 
-      <div className="section section-3">
+      <div className="s s-3">
         <h4>Multitasking OS</h4>
         <p>
           Multitasking OS combines the benefits of Multiprogramming OS and CPU scheduling
@@ -71,7 +71,7 @@ const OSBeginnerNotes = () => {
         </p>
       </div>
 
-      <div className="section section-4">
+      <div className="s s-4">
         <h4>Time Sharing OS</h4>
         <p>
           Time-sharing systems require interaction with the user to instruct
@@ -80,7 +80,7 @@ const OSBeginnerNotes = () => {
         </p>
       </div>
 
-      <div className="section section-5">
+      <div className="s s-5">
         <h4>Real Time OS</h4>
         <p>
           Real-Time OS are usually built for dedicated systems to accomplish a specific set
@@ -88,7 +88,7 @@ const OSBeginnerNotes = () => {
         </p>
       </div>
 
-      <div className="section section-6">
+      <div className="s s-6">
         <h4>Process</h4>
         <p>
           A process is a program under execution. The value of the program counter (PC)
@@ -97,7 +97,7 @@ const OSBeginnerNotes = () => {
         </p>
       </div>
 
-      <div className="section section-7">
+      <div className="s s-7">
         <h4>Process Scheduling</h4>
         <p>
           1. Arrival Time – Time at which the process arrives in the ready queue.
@@ -110,21 +110,21 @@ const OSBeginnerNotes = () => {
         </p>
       </div>
 
-      <div className="section section-8">
+      <div className="s s-8">
         <h4>Turn Around Time</h4>
         <p>
           Turn Around Time = Completion Time - Arrival Time
         </p>
       </div>
 
-      <div className="section section-9">
+      <div className="s s-9">
         <h4>Waiting Time (WT)</h4>
         <p>
           Waiting Time = Turnaround Time - Burst Time
         </p>
       </div>
 
-      <div className="section section-10">
+      <div className="s s-10">
         <h4>Thread (Important)</h4>
         <p>
           A thread is a lightweight process and forms the basic unit of CPU utilization. A process can perform more than one task at the same time by including multiple threads.
@@ -133,12 +133,12 @@ const OSBeginnerNotes = () => {
           A thread has its own program counter, register set, and stack.
         </p>
         <p>
-          A thread shares resources with other threads of the same process: the code section, the data section, files, and signals.
+          A thread shares resources with other threads of the same process: the code s, the data s, files, and signals.
         </p>
       </div>
 
-      {/* Other sections go here */}
-      <div className="section section-videos">
+      {/* Other ss go here */}
+      <div className="s s-videos">
         <h4 style={{ marginBottom: '15px' }}>Best YouTube Video for OS Basics</h4>
 
         {/* Video 1 */}
@@ -153,7 +153,7 @@ const OSBeginnerNotes = () => {
           ></iframe>
         </div>
       </div>
-      <div className="section section-playlist">
+      <div className="s s-playlist">
         <h4 style={{ marginBottom: '15px',fontWeight:"bold",textDecoration:"underline" }}>Best Playlists for OS Basics</h4>
 
         {/* Display playlists with links */}
@@ -175,7 +175,7 @@ const OSBeginnerNotes = () => {
           </div>
         ))}
       </div>
-      <div className="section section-interview-videos">
+      <div className="s s-interview-videos">
         <h4 style={{ marginBottom: '15px', fontWeight: "bold", textDecoration: "underline" }}>Top Interview Questions for OS</h4>
 
         {/* Display interview video links */}

@@ -1,0 +1,52 @@
+/* FindStudentOffersPage.css */
+
+.student-offers-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-right:60px;
+    margin-top: -80px;
+  }
+  
+  .usn-input {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .student-offers-page  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .student-offers-page  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .student-offers-page  .btn0new {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .student-offers-page  .btn0new:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styling as needed */
+  

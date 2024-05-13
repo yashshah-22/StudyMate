@@ -34,7 +34,7 @@ const OOPsBeginner = () => {
   };
   return (
     <div className="dbms-beginner-notes">
-      <div className="section section-1">
+      <div className="s s-1">
         <h4>OBJECT ORIENTED PROGRAMMING</h4>
         <p>
           Object-Oriented Programming is a methodology or paradigm to design a
@@ -43,7 +43,7 @@ const OOPsBeginner = () => {
         </p>
       </div>
 
-      <div className="section section-2">
+      <div className="s s-2">
         <h4>Class</h4>
         <p>
           Class is a user-defined data type which defines its properties and its
@@ -69,7 +69,7 @@ class student {
         </pre>
       </div>
 
-      <div className="section section-3">
+      <div className="s s-3">
         <h4>Object</h4>
         <p>
           Object is a run-time entity. It is an instance of the class. An object can
@@ -91,7 +91,7 @@ student s = new student();
         </p>
       </div>
 
-      <div className="section section-4">
+      <div className="s s-4">
         <h4>Inheritance</h4>
         <p>
           Inheritance is a process in which one object acquires all the properties and
@@ -113,7 +113,7 @@ class derived_class :: visibility-mode base_class;
         <p>Visibility Modes: {`{private, protected, public}`}</p>
       </div>
 
-      <div className="section section-5">
+      <div className="s s-5">
         <h4>Types of Inheritance</h4>
         <p>1. Single inheritance: When one class inherits another class, it is known as single level inheritance.</p>
         <p>2. Multiple inheritance: Multiple inheritance is the process of deriving a new class that inherits the attributes from two or more classes.</p>
@@ -122,7 +122,7 @@ class derived_class :: visibility-mode base_class;
         <p>5. Hybrid inheritance: Hybrid inheritance is a combination of simple, multiple inheritance, and hierarchical inheritance.</p>
       </div>
 
-      <div className="section section-6">
+      <div className="s s-6">
         <h4>Encapsulation</h4>
         <p>
           Encapsulation is the process of combining data and functions into a single
@@ -135,7 +135,7 @@ class derived_class :: visibility-mode base_class;
         <p>Data hiding: A language feature to restrict access to members of an object, reducing the negative effect due to dependencies (e.g., "protected," "private" feature in C++).</p>
       </div>
 
-      <div className="section section-7">
+      <div className="s s-7">
         <h4>Abstraction</h4>
         <p>
           We try to obtain an abstract view, model, or structure of a real-life problem,
@@ -149,7 +149,7 @@ class derived_class :: visibility-mode base_class;
         business logic. Any change made in the business logic will reflect directly to the application UI.</p>
       </div>
 
-      <div className="section section-8">
+      <div className="s s-8">
         <h4>Polymorphism</h4>
         <p>
           Polymorphism is the ability to present the same interface for differing
@@ -161,7 +161,7 @@ class derived_class :: visibility-mode base_class;
         <p>2. Runtime Polymorphism (Dynamic)</p>
       </div>
 
-      <div className="section section-9">
+      <div className="s s-9">
         <h4>Compile Time Polymorphism</h4>
         <p>
           The polymorphism which is implemented at the compile time is known as compile-time polymorphism. Example: Method Overloading
@@ -203,7 +203,7 @@ add() is an overloaded function with a different number of parameters. */
         </pre>
       </div>
 
-      <div className="section section-10">
+      <div className="s s-10">
         <h4>Runtime Polymorphism</h4>
         <p>
           Runtime polymorphism is also known as dynamic polymorphism. Function overriding is an example of runtime polymorphism. Function overriding means when the child class contains the method which is already present in the parent class. Hence, the child class overrides the method of the parent class. In case of function overriding, parent and child classes both contain the same function with a different definition. The call to the function is determined at runtime and is known as runtime polymorphism.
@@ -236,7 +236,7 @@ return 0;
         </pre>
       </div>
       
-      <div className="section section-videos">
+      <div className="s s-videos">
         <h4 style={{ marginBottom: '15px' }}>Best YouTube Video for OOPs Basics</h4>
 
         {/* Video 1 */}
@@ -251,7 +251,7 @@ return 0;
           ></iframe>
         </div>
       </div>
-      <div className="section section-playlist">
+      <div className="s s-playlist">
         <h4 style={{ marginBottom: '15px',fontWeight:"bold",textDecoration:"underline" }}>Best Playlists for OOPs Basics</h4>
 
         {/* Display playlists with links */}
@@ -273,7 +273,7 @@ return 0;
           </div>
         ))}
       </div>
-      <div className="section section-interview-videos">
+      <div className="s s-interview-videos">
         <h4 style={{ marginBottom: '15px', fontWeight: "bold", textDecoration: "underline" }}>Top Interview Questions for OOPs</h4>
 
         {/* Display interview video links */}

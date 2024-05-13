@@ -33,19 +33,20 @@ const DBMSBeginnerNotes = () => {
     window.open(playlistUrl, '_blank');
   };
   return (
+    
     <div className="dbms-beginner-notes">
-      <div className="section section-1">
+      <div className="s s-1">
         <h1>DBMS & SQL NOTES</h1>
       </div>
 
-      <div className="section section-2">
+      <div className="s s-2">
         <h3>Database:</h3>
         <p>
           A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task. Database Management System (DBMS) is a software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data.
         </p>
       </div>
 
-      <div className="section section-3">
+      <div className="s s-3">
         <h3>Challenges of Typical File-processing Systems:</h3>
         <ul>
           <li>Data redundancy and inconsistency</li>
@@ -58,7 +59,7 @@ const DBMSBeginnerNotes = () => {
         </ul>
       </div>
 
-      <div className="section section-4">
+      <div className="s s-4">
         <h3>ER diagram:</h3>
         <ul>
           <li>ER diagram or Entity Relationship diagram is a conceptual model that gives the graphical representation of the logical structure of the database.</li>
@@ -69,14 +70,14 @@ const DBMSBeginnerNotes = () => {
         </ul>
       </div>
 
-      <div className="section section-5">
+      <div className="s s-5">
         <h3>Entity Set:</h3>
         <p>
           An entity set is a set of the same type of entities.
         </p>
       </div>
 
-      <div className="section section-6">
+      <div className="s s-6">
         <h3>Cardinality Constraint:</h3>
         <ul>
           <li>Cardinality constraint defines the maximum number of relationship instances in which an entity can participate.</li>
@@ -87,7 +88,7 @@ const DBMSBeginnerNotes = () => {
         </ul>
       </div>
 
-      <div className="section section-7">
+      <div className="s s-7">
         <h3>Attributes:</h3>
         <ul>
           <li>Attributes are the descriptive properties which are owned by each entity of an Entity Set.</li>
@@ -100,7 +101,7 @@ const DBMSBeginnerNotes = () => {
         </ul>
       </div>
 
-      <div className="section section-8">
+      <div className="s s-8">
         <h3>Constraints:</h3>
         <ul>
           <li>Relational constraints are the restrictions imposed on the database contents and operations. They ensure the correctness of data in the database.</li>
@@ -112,14 +113,14 @@ const DBMSBeginnerNotes = () => {
         </ul>
       </div>
 
-      <div className="section section-9">
+      <div className="s s-9">
         <h3>Closure of an Attribute Set:</h3>
         <p>
           The set of all those attributes which can be functionally determined from an attribute set is called a closure of that attribute set.
         </p>
       </div>
 
-      <div className="section section-10">
+      <div className="s s-10">
         <h3>Keys:</h3>
         <ul>
           <li>Super Key - A superkey is a set of attributes that can identify each tuple uniquely in the given relation. A super key may consist of any number of attributes.</li>
@@ -131,7 +132,7 @@ const DBMSBeginnerNotes = () => {
           <li>Unique Key - It is unique for all the records of the table. Once assigned, its value cannot be changed, i.e., it is non-updatable. It may have a NULL value.</li>
         </ul>
       </div>
-      <div className="section section-videos">
+      <div className="s s-videos">
         <h4 style={{ marginBottom: '15px' }}>Best YouTube Video for DBMS Basics</h4>
 
         {/* Video 1 */}
@@ -146,7 +147,7 @@ const DBMSBeginnerNotes = () => {
           ></iframe>
         </div>
       </div>
-      <div className="section section-playlist">
+      <div className="s s-playlist">
         <h4 style={{ marginBottom: '15px',fontWeight:"bold",textDecoration:"underline" }}>Best Playlists for DBMS Basics</h4>
 
         {/* Display playlists with links */}
@@ -168,7 +169,7 @@ const DBMSBeginnerNotes = () => {
           </div>
         ))}
       </div>
-      <div className="section section-interview-videos">
+      <div className="s s-interview-videos">
         <h4 style={{ marginBottom: '15px', fontWeight: "bold", textDecoration: "underline" }}>Top Interview Questions for OS</h4>
 
         {/* Display interview video links */}

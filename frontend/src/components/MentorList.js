@@ -20,15 +20,7 @@ const mentorsData = [
     email: 'keshabkataruka@gmail.com',
     college: 'Dayananda Sagar College of Engineering,Bangalore',
   },
-  {
-    id: 3,
-    name: 'Palak Khandelwal',
-    domain: 'Blockchain',
-    image: 'blockckchain.jpg',
-    contact: '9182817281',
-    email: 'palakkhandelwal@gmail.com',
-    college: 'Dayananda Sagar College of Engineering,Bangalore',
-  },
+  
   {
     id: 3,
     name: 'Vidhan Jain',
@@ -37,6 +29,15 @@ const mentorsData = [
     contact: '555-555-5555',
     email: 'bob.johnson@example.com',
     college: 'Dayananda Sagar College of Engineering',
+  },
+  {
+    id: 4,
+    name: 'Palak Khandelwal',
+    domain: 'Blockchain',
+    image: 'blockckchain.jpg',
+    contact: '9182817281',
+    email: 'palakkhandelwal@gmail.com',
+    college: 'Dayananda Sagar College of Engineering,Bangalore',
   },
 
   {
@@ -58,7 +59,7 @@ const mentorsData = [
     college: 'Dayananda Sagar College of Engineering,Bangalore',
   },
   {
-    id: 8,
+    id: 7,
     name: 'Harsh Gupta',
     domain: 'Android Development',
     image: 'blockchain.jpg',
@@ -86,7 +87,7 @@ const MentorList = () => {
           <option value="Machine Learning">Machine Learning</option>
           <option value="Blockchain">Blockchain</option>
           <option value="Android Development">Android Development</option>
-          <option value="deep learning">Deep Learning</option>
+          <option value="Deep Learning">Deep Learning</option>
           {/* Add more domain options */}
         </select>
       </div>

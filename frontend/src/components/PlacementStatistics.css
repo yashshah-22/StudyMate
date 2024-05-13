@@ -1,0 +1,36 @@
+/* PlacementStatistics.css */
+.placement-statistics {
+    margin-top: 70px;
+    background-color: lightcyan;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+  }
+  
+  .stat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .stat-box {
+    background-color: #61dafb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex-basis: calc(25% - 20px); /* Four boxes in one row */
+    text-align: center;
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .stat-box {
+      flex-basis: calc(33.33% - 20px); /* Three boxes in one row on smaller screens */
+    }
+  }
+  

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { School } from '@mui/icons-material';
-
+import './Signup.css';
 const Signup = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -70,12 +70,14 @@ const Signup = () => {
             </label>
             <input type="text" className="form-control" onChange={(e) => setPhoneNumber(e.target.value)} />
           </div>
-          <button type="submit" className="btn btn-success">
+          <div className='newclass'>
+          <button type="submit" className="btn btn-success btn1">
             Submit
           </button>
-          <Link to="/" className="btn btn-danger ms-2">
+          <Link to="/" className="btn btn-danger ms-2 btn2">
             Already a User
           </Link>
+          </div>
         </form>
       </div>
     </div>

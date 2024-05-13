@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useUser } from '../contexts/UserContext.js';
 import { School } from '@mui/icons-material';
-
+import './Login.css';
 const Login = () => {
   let navigate = useNavigate();
   const { setUser } = useUser();
@@ -67,15 +67,18 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <button type="submit" className="btn btn-success">
+            <div className='styles'>
+            <button type="submit" className="btn btn-success button1">
               Submit
             </button>
-            <Link to="/signup" className="btn btn-danger ms-2">
+            <Link to="/signup" className="btn btn-danger ms-2 button2">
               I'm a new User
             </Link>
-            <button type="submit" onClick={()=>navigate("/loginsignup")} className="btn ms-2 text-white" style={{backgroundColor:"darkblue"}}>
+            </div>
+            <button type="submit" onClick={()=>navigate("/loginsignup")} className="btn ms-2 text-white button3" style={{backgroundColor:"darkblue"}}>
               Mentor-Login
             </button>
+            
           </form>
         </div>
       </div>

@@ -1,0 +1,32 @@
+/* StudentCompanySelections.css */
+.student-company-selections {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .accepted {
+    color: #28a745; /* Green color for accepted status */
+    font-weight: bold;
+  }
+  

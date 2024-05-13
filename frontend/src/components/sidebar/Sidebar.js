@@ -21,7 +21,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__menu">
         <div className="sidebar__link active_menu_link">
           <i className="fa fa-home"></i>
-          <a href="#">Dashboard</a>
+          <Link to="/studentdashboard">Dashboard</Link>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-user-secret" aria-hidden="true"></i>
@@ -41,7 +41,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         </div>
         <div className="sidebar__link">
           <i className="fa fa-handshake-o"></i>
-          <Link to="/">Student Login</Link>
+          <Link to="/">Mentor Login</Link>
         </div>
        
        

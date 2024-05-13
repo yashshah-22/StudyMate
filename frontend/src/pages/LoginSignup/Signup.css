@@ -7,3 +7,15 @@
 .logo{
     margin-top: 10px;
 }
+.hellobhai{
+    display: flex;
+    flex-direction: row;
+}
+.hellobhai .btnabcd{
+    height:40px;
+    width:50%;
+}
+.hellobhai .btnxyz{
+    height:40px;
+    width:50%;
+}

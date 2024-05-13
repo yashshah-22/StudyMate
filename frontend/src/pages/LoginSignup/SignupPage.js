@@ -77,13 +77,14 @@ const Signup = () => {
             </label>
             <input type="text" className="form-control" onChange={(e) => setDomain(e.target.value)} />
           </div> */}
-          
-          <button type="submit" className="btn btn-success">
+          <div className='hellobhai'>
+          <button type="submit" className="btn btn-success btnabcd">
             Submit
           </button>
-          <Link to="/" className="btn btn-danger ms-2">
+          <Link to="/" className="btn btn-danger ms-2 btnxyz">
             Already a Mentor
           </Link>
+          </div>
         </form>
       </div>
     </div>

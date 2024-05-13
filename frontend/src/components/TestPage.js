@@ -727,12 +727,14 @@ const TestPage = () => {
                 </li>
               ))}
             </ul>
+            <div className='kkkkkk'>
             <button className="submit-button" onClick={handleSubmitAnswers}>
               Submit Answers
             </button>
             <button className="submit-button" onClick={handleRetakeTest}>
               Retake Test
             </button>
+            </div>
             <p className="score">Score: {score} out of {questions.length}</p>
             <ToastContainer />
           </div>

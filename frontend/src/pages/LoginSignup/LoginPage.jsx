@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useUser } from '../../contexts/UserContext'
 import { School } from '@mui/icons-material';
-
+import './LoginPage.css';
 const Login = () => {
   let navigate = useNavigate();
   const { setUser } = useUser();
@@ -67,15 +67,18 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <button type="submit" className="btn btn-success">
+            <div className='naveen'>
+            <button type="submit" className="btn btn-success btnx">
               Submit
             </button>
-            <Link to="/mentorsignup" className="btn btn-danger ms-2">
-              I'm a new Mentor
-            </Link>
-            <button type="submit" onClick={()=>navigate("/")} className="btn ms-2 mt-2 mr-2 text-white" style={{backgroundColor:"darkblue"}}>
+            <button type="submit" onClick={()=>navigate("/")} className="btn ms-2  mr-2 text-white btny" style={{backgroundColor:"darkblue"}}>
               Student-Login
             </button>
+           
+            </div>
+            <Link to="/mentorsignup" className="btn btn-danger ms-2 btn3 ">
+              I'm a new Mentor
+            </Link>
           </form>
         </div>
       </div>

@@ -1,0 +1,12 @@
+.newclass {
+display: flex;
+flex-direction: row;
+}
+.newclass .btn1{
+    width:50%;
+    height:40px;
+}
+.newclass .btn2{
+    width:50%;
+    height:40px;
+}
